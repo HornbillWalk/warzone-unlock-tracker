@@ -1,0 +1,42 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="50%" stop-color="#121a22"/>
+      <stop offset="100%" stop-color="#1a2530"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#3a5a6b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3a5a6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <g stroke="#7fa8bd" stroke-width="1" opacity="0.15">
+    <line x1="600" y1="20" x2="600" y2="90"/>
+    <line x1="600" y1="300" x2="600" y2="340"/>
+    <line x1="480" y1="180" x2="560" y2="180"/>
+    <line x1="640" y1="180" x2="720" y2="180"/>
+  </g>
+  <circle cx="600" cy="180" r="120" fill="none" stroke="#7fa8bd" stroke-width="1" opacity="0.12"/>
+  <circle cx="600" cy="180" r="160" fill="none" stroke="#7fa8bd" stroke-width="1" opacity="0.08"/>
+
+  <circle cx="120" cy="60" r="4" fill="#ffffff" opacity="0.15"/>
+  <circle cx="1080" cy="80" r="3" fill="#ffffff" opacity="0.15"/>
+  <circle cx="140" cy="300" r="3" fill="#ffffff" opacity="0.12"/>
+  <circle cx="1060" cy="290" r="4" fill="#ffffff" opacity="0.12"/>
+
+  <path d="M100 250 Q 300 200 600 240 T 1100 220" fill="none" stroke="#4fa3c4" stroke-width="1.5" opacity="0.10"/>
+  <path d="M100 120 Q 300 160 600 110 T 1100 140" fill="none" stroke="#4fa3c4" stroke-width="1.5" opacity="0.10"/>
+
+  <text x="600" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60.0" fill="#ffffff" font-weight="bold">
+    <tspan x="600" dy="0">Warzone Unlocker</tspan>
+  </text>
+
+  <text x="600" y="210" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Track weapon and camo unlock progress for Warzone players —</tspan>
+    <tspan x="600" dy="30">see what's left before you grind the wrong challe…</tspan>
+  </text>
+</svg>
